@@ -1,3 +1,6 @@
+###
+GET http://localhost:3000/api HTTP/1.1
+
 POST http://localhost:3000/alumnos HTTP/1.1
 Content-Type: application/json
 
@@ -9,3 +12,21 @@ Content-Type: application/json
     "address": "midomicilio 420"
 
 }
+
+###
+PUT http://localhost:3000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "first_name": "juanaasdasd",
+    "last_name": "gomez",
+    "email": "juangomez@test.com",
+    "phone": "1851223",
+    "address": "midomicilio 420"
+
+}
+
+###
+DELETE http://localhost:3000/api/6 HTTP/1.1
+
+
