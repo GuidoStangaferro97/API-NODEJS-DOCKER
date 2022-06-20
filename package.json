@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start:dev": "nodemon src/index.js",
-    "start:prod": "nodemon src/index.js"
+    "start:prod": "node src/index.js"
   },
   "keywords": [
     "NodeJs",
