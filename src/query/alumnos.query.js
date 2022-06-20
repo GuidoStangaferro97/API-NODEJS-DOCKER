@@ -1,10 +1,10 @@
 const QUERY = {
-    SELECT_ALUMNOS: 'SELECT * FROM ALUMNOS',
-    SELECT_ALUMNO: 'SELECT * FROM ALUMNOS WHERE id = ?',
-    CREATE_ALUMNO: 'INSERT INTO ALUMNOS(first_name, last_name, email, phone, address) VALUES (?, ?, ?, ?, ?)',
-    UPDATE_ALUMNO: 'UPDATE ALUMNOS SET first_name = ?, last_name = ?, email = ?, phone = ?, address = ? WHERE id = ?',
-    DELETE_ALUMNO: 'DELETE FROM ALUMNOS WHERE id = ?',
-    CREATE_ALUMNO_PROCEDURE: 'CALL create_and_return(?, ?, ?, ?, ?, ?, ?)'
+    SELECT_ALUMNOS: 'SELECT * FROM alumnos',
+    SELECT_ALUMNO: 'SELECT * FROM alumnos WHERE id = ?',
+    CREATE_ALUMNO: 'INSERT INTO alumnos(first_name, last_name, email, phone, address) VALUES (?, ?, ?, ?, ?)',
+    UPDATE_ALUMNO: 'UPDATE alumnos SET first_name = ?, last_name = ?, email = ?, phone = ?, address = ? WHERE id = ?',
+    DELETE_ALUMNO: 'DELETE FROM alumnos WHERE id = ?',
+    CREATE_ALUMNO_PROCEDURE: 'CALL create_and_return(?, ?, ?, ?, ?)'
 };
 
 
