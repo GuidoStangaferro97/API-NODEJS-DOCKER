@@ -31,7 +31,7 @@ services:
       DB_USER: 'admin'
       DB_PASSWORD: 'letmein'
       DB_NAME: alumnosdb
-
       SERVER_PORT: 3000
+      
     depends_on:
       - mysqldb
